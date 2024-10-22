@@ -6,6 +6,29 @@
     font-style: normal;
 }
 
+body {
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 15px;
+    background-color: #F1F0FE;
+    cursor: default;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8d7afb;
+    border-radius: 30px;
+    border: 4px solid #7B6ADA;
+    cursor: default;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
 .navBar {
     display: flex;
     justify-content: center;
@@ -230,7 +253,8 @@
     color: #7B6ADA;
     font-weight: bold;
 }
-.aboutContent p{
+
+.aboutContent p {
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -266,7 +290,7 @@
     margin-left: 200px;
 }
 
-.courseContainer{
+.courseContainer {
     margin-top: 200px;
     width: 100vw;
     display: flex;
@@ -274,36 +298,44 @@
     align-items: center;
     justify-content: center;
 }
-.courseHead{
+
+.courseHead {
     padding: 40px;
 }
-.courseHead p{
+
+.courseHead p {
     margin: 0px 0px 30px 65px;
 }
-.courseCategory{
+
+.courseCategory {
     background-color: #F1F0FE;
     padding: 20px 60px;
     border-radius: 30px;
 }
-.courseCategory ul{
+
+.courseCategory ul {
     gap: 50px;
     display: flex;
 }
-.courseCategory li{
+
+.courseCategory li {
     list-style: none;
 }
-.courseCategory a{
+
+.courseCategory a {
     text-decoration: none;
     font-weight: bold;
 }
-.courseView{
+
+.courseView {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 70px;
     margin-top: 100px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -311,18 +343,75 @@
     height: 50vh;
     padding: 26px;
     border-radius: 20px;
+    /* border: 0.5px solid #7B6ADA; */
 }
-.box img{
+
+.box img {
     border-radius: 20px;
 
 }
-.box p{
+
+.box p {
     color: #7B6ADA;
     padding: 10px;
 
 }
-.box h2{
+
+.box h2 {
     margin-left: 10px;
 }
 
+.teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
 
+.teamsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 200px;
+    gap: 30px;
+}
+
+.teamBox {
+    width: 400px;
+    flex-direction: column;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #F1F0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamBox img {
+    mix-blend-mode: darken;
+    position: relative;
+    bottom: 120px;
+}
+
+.teamsInfo {
+    display: grid;
+    justify-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.socialLink {
+    font-size: 40px;
+}
+
+.socialLink i {
+    padding: 10px;
+}
+
+.footerBox {
+    margin-top: 250px;
+    background-color: #7B6ADA;
+    width: 100vw;
+    height: 10vh;
+    border-radius: 150px 150px 0px 0px;
+}
