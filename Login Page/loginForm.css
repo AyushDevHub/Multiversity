@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 50px;
+    background: #FEFEFE;
+    box-shadow: 20px 20px 60px #d8d8d8,
+        -20px -20px 60px #ffffff;
+}
+.SignIn_cont{
+    margin: 20px;
+}
+
+.heading {
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+}
+
+.heading p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 12px;
+    /* color: #7B6ADA; */
+
+}
+
+.signUp_google {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.google-signup-btn {
+    width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #757575;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.google-signup-btn:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.google-signup-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.divider-container {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 508px;
+}
+
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider-text {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+}
+
+.phone-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.phone-signup h2 {
+    /* color: #7B6ADA; */
+    margin: 20px;
+}
+
+.phone-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone-signup input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phone-signup button {
+    background-color: #7B6ADA;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.phone-signup button:hover {
+    background-color: #695ab9;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 12px;
+    font-weight: bold;
+}

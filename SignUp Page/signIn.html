@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Multiversity</title>
+    <link rel="stylesheet" href="signIn.css">
+</head>
+
+<body>
+    <main>
+        <div class="mainContainer">
+            <div class="container">
+                <div class="imgCont">
+                    <img src="Sign_In images/signIn.png" alt="#" width="400px">
+                </div>
+
+                <div class="SignIn_cont">
+                    <div class="logo">
+                        <!-- <img src="Sign_In images/MultiVersity.jpeg" alt="#" width="100px"> -->
+
+                    </div>
+                    <div class="heading">
+                        <h2>Sign Up</h2>
+                        <p>SignUp now to get started for the account !</p>
+                    </div>
+                    <div class="signUp_google">
+                        <a href="#" class="google-signup-btn">
+                            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                                alt="Google Icon">
+                            Sign Up with Google
+                        </a>
+                    </div>
+                    <div class="divider-container">
+                        <div class="divider-line"></div>
+                        <div class="divider-text">OR</div>
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="phone-signup">
+                        <h2>Sign Up with Phone Number</h2>
+                        <form id="phoneForm">
+                            <input type="text" id="phoneNumber" placeholder="Enter your phone number" required />
+                            <button type="button" id="getOtpButton" class="button">GET OTP</button>
+                        </form>
+                        <p id="otpMessage" style="display: none;">OTP has been sent to your phone number!</p>
+                    </div>
+                    <div class="loginForm">
+                        <span>Already have an account ?</span>
+                        <span><a href="../Login Page/loginForm.html">Login In</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="signIn.js"></script>
+</body>
+
+</html>

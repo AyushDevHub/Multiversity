@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login In - Multiversity</title>
+    <link rel="stylesheet" href="loginForm.css">
+</head>
+
+<body>
+    <main>
+        <div class="mainContainer">
+            <div class="container">
+                <div class="imgCont">
+                    <img src="./Login_images/signIn.png" alt="#" width="400px">
+                </div>
+
+                <div class="SignIn_cont">
+                    <div class="logo">
+                        <!-- <img src="Sign_In images/MultiVersity.jpeg" alt="#" width="100px"> -->
+
+                    </div>
+                    <div class="heading">
+                        <h2>Log in to your Account</h2>
+                        <p>Welcome back, please enter your details !</p>
+                    </div>
+                    <div class="signUp_google">
+                        <a href="#" class="google-signup-btn">
+                            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                                alt="Google Icon">
+                            Continue with Google
+                        </a>
+                    </div>
+                    <div class="divider-container">
+                        <div class="divider-line"></div>
+                        <div class="divider-text">OR</div>
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="phone-signup">
+                        <h2>Log in with Phone Number</h2>
+                        <form id="phoneForm">
+                            <input type="text" id="phoneNumber" placeholder="Enter your phone number" required />
+                            <button type="button" id="getOtpButton" class="button">GET OTP</button>
+                        </form>
+                        <p id="otpMessage" style="display: none;">OTP has been sent to your phone number!</p>
+                    </div>
+                    <div class="loginForm">
+                        <span>Don't have an account ?</span>
+                        <span><a href="../SignUp Page/signIn.html">Sign Up</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="signIn.js"></script>
+</body>
+
+</html>
